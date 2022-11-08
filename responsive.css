@@ -6,6 +6,7 @@
         justify-content: center;
         padding-top: 100px;
         align-items: center;
+        
     }
 
     
@@ -17,10 +18,12 @@
         line-height: 30px;
         color: #4F9CF9;
         text-align: center;
+        margin-left: 25px;
     }
     .section-1-right img{
-        width: 400px;
+        width: 411px;
         height: 200px;
+        margin-left: 50px;
     }
 
     .get-text {
@@ -33,6 +36,7 @@
         letter-spacing: -0.02em;
         color: #4F9CF9;
         text-align: center;
+        margin-left: 30px;
     }
 
     .section-1-button a {
@@ -52,7 +56,7 @@
 
     .section-1-button {
         margin-bottom: 20px;
-        margin-left: 60px;   
+        margin-left: 80px;   
     }
 
     .second-section2 {
@@ -62,6 +66,7 @@
         justify-content: center;
         padding-top: 50px;
         align-items: center;
+        margin-left: 25px;
     }
     .section-2-right img {
         width: 400px;
@@ -113,6 +118,7 @@
     justify-content: center;
     padding-top: 168px;
     align-items: center;
+    margin-left: 25px;
 }
 
 .section-3-left img {
@@ -126,6 +132,7 @@
     letter-spacing: -0.02em;
     font-family: sans-serif;
     margin-left: 80px;
+    margin-top: 30px;
 }
 
 .yellow-line2 {
@@ -151,6 +158,7 @@
     padding-top: 150px;
     align-items: center;
     gap: 60px;
+    margin-left: 25px;
 }
 
 .yellow-line4 {
@@ -163,6 +171,7 @@
     display: flex;
     flex-direction: column;
     width: 400px;
+    margin-left: 25px;
 }
 .personal {
     width: 318px;
@@ -214,6 +223,7 @@
     padding-top: 168.57px;
     justify-content: center;
     align-items: center;
+    margin-left: 25px;
 }
 
 .data {
@@ -336,6 +346,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-left: 25px;
 }
 .containerit {
     
@@ -375,6 +386,7 @@
     /* position: absolute; */
     width: 400px;
     height: 1800px;
+    margin-left: 25px;
     
 }
 .logofooter {
@@ -392,12 +404,14 @@
     justify-content: center;
     margin-top: -10px;
     background-color: #043873;
+    margin-left: 25px;
 }
 
 .img-line img {
     text-align: center;
     margin-top: -70px;
     width: 380px;
+    margin-left: 25px;
 }
 
 .footer-icons  img {
@@ -468,7 +482,7 @@
 
 .section-2-button {
     margin-bottom: 20px;
-    margin-left: 130px;   
+    margin-left: 120px;   
 }
 
 .section-3-button a {
@@ -488,7 +502,7 @@
 
 .section-3-button {
     margin-bottom: 20px;
-    margin-left: 160px;   
+    margin-left: 140px;   
 }
 
 .section-4-button a {
@@ -508,11 +522,18 @@
 
 .section-4-button {
     margin-bottom: 20px;
-    margin-left: 128px;   
+    margin-left: 115px;   
 }
 
+.bluesection4 img {
+    width: 400px;
+    margin-left: 25px;
+}
 
-
+.bluesection6 img {
+    width: 400px;
+    margin-left: 25px;
+}
 
 
 }
