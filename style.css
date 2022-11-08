@@ -1,0 +1,845 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    width: 100%;
+
+}
+body {
+    background-color:rgb(255, 255, 255);
+}
+.main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+    
+    
+    
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 32px;
+    list-style: none;
+}
+
+.header a {
+    text-decoration: none;
+    color: #4F9CF9;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.login a {
+    padding: 16px 40px;
+    background-color: #FFE492;
+    border-radius: 8px;
+    color: #043873;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: sans-serif;
+}
+
+.try a {
+    padding: 16px 40px;
+    background-color:  #4F9CF9;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: sans-serif;
+}
+
+.try span {
+    margin-left: 5px;
+}
+/* ------- meore seqciaa------ */
+
+.second-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-top: 100px;
+    
+    align-items: center;
+}
+.get-more {
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 60px;
+    color: #4F9CF9;
+    /* width: 656px;
+    height: 154px; */
+}
+
+.get-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    padding-top: 24px;
+    letter-spacing: -0.02em;
+
+    color: #4F9CF9;
+}
+
+
+.section-1-right img {
+    width: 100%;
+    height: 549px;
+}
+.section-1-button a {
+    padding: 16px 40px;
+    background-color:#4F9CF9;
+    border-radius: 8px;
+    color:white ;
+    align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+    
+}
+.section-1-button {
+    margin-top: 60px;
+}
+.section-1-button span {
+    margin-left: 5px;
+}
+
+/* meore secqia meore bloki iwyeba */
+
+.second-section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.project-managment {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+    }
+
+    .yellow-line img {
+        width: 482.21px;
+        height: 29.38px;
+    }
+
+    .project-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        font-family: sans-serif;
+        margin-top: 24px;
+    }
+
+    .section-2-right img {
+        width: 748px;
+        height: 547px;
+            
+    }
+    /* ----meore seqciiis mesame------- */
+
+    .third-section3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 168px;
+        align-items: center;
+    }
+
+    .work-togethar {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 87px;
+        letter-spacing: -0.02em;
+        font-family: sans-serif;
+    }
+    .togethar-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: sans-serif;
+    }
+    .yellow-line2  {
+        margin-left: 200px;
+        margin-top: -50px;
+       
+    }
+    /* meore seqciis meotxe nawili */
+    .yellow-line4  {
+        width: 274px;
+        height: 28.2px;
+        margin-left: 180px;
+    }
+
+    .seqcia4 {
+        width: 686px;
+        height: 479px;
+    }
+
+.second-section4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 329px;
+    align-items: center;
+    gap: 60px;
+}
+
+/* --------konteineri3------ */
+
+.chooseplan{
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.yourplan {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    width: 100%;
+    
+
+
+}
+
+
+.freedolar {
+    box-sizing: border-box;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
+    /* align-items: flex-start; */
+    padding: 40px 44px;
+    width: 472.33px;
+    height: 750px;
+    background-color: white;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    margin: 20px  0px 0px 200;
+    
+    
+}
+
+.freedolar h3 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    padding-bottom: 25px;
+}
+
+.dolar {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* padding-bottom: 25px; */
+}
+
+.capture {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    /* padding-bottom: 25px; */
+    padding-top: 25px;
+}
+
+.secondfreepart ul {
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    line-height: 20px;
+    margin-bottom: 28px;
+}
+
+.secondfreepart img {
+    width: 18.01px;
+    height: 18.01px;
+    padding-right: 19px;
+    padding-top: 28px;
+}
+
+.secondfreepart span {
+    padding-left: 37px;
+}
+
+.freebutton a {
+    text-decoration: none;
+    width: 166px;
+    height: 51px;
+    border: 1px solid #FFE492;;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    color: black;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+    
+}
+    
+
+.personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 80px 44px;
+    gap: 25px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 472.33px;
+    height: 761px;
+    margin-top: 50px;
+    
+}
+.personal  {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* padding-bottom: 25px; */
+    color: #043873;
+    margin-bottom: 50px;
+}
+.yesicon2 li {
+    color: #043873;
+}
+ .getstarted a {
+    height: 51px;
+    width: 166px;
+    background-color: #4F9CF9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+ }
+
+ .chooseplan {
+    text-align: center;
+ }
+
+ .planhead {
+   
+    text-align: center;
+    /* width: 1481px;
+    height: 87px; */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    margin-bottom: 60px;
+ }
+ 
+    
+ .yesicon li {
+    color: black;
+ }
+
+ /* bluesection-4 iwyeba */
+
+ .bluesection4 img {
+   width: 100%;
+ }
+
+/* sponsorebis mexute seqcia iwyeba */
+/* .sponsors-section5{
+     display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 168.57px;
+    justify-content: space-evenly;
+    align-items: center; */
+
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    
+    padding-top: 168.57px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.datapic  {
+    margin-left: 200px;
+    margin-top: -200px;
+}
+
+.datapicturer img {
+    width: 681px;
+    height: 381.13px;
+    padding-right: 50px;
+    
+}
+
+.data {
+    width: 800px;
+    height: 87px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+}
+
+.datatext  {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    margin-top: 30px;
+
+    letter-spacing: -0.02em;
+}
+
+.databutton  a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px 30px; */
+    /* gap: 10px; */
+    background: #4F9CF9;
+    border-radius: 8px;
+    width: 197px;
+    height: 63px;
+    margin-top: 60px;
+    /* list-style: none; */
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    
+
+}
+
+.yourdata p {
+    margin-top: 24px;
+}
+
+.databutton img {
+    margin-left: 10px;
+}
+
+.sponsors2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 307.63px;
+    
+}
+
+.companies ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+.companies {
+    padding-top: 101.4px;
+    padding-bottom: 100px;
+    
+}
+
+.oursp {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.ourspimg {
+    margin-left: 160px;
+    margin-top: -30px;
+}
+
+/* meeqvse lurji seqcia iwyeba */
+
+.bluesection6 img {
+    width: 100%;
+}
+
+/*  7 containeri trusted usere iwyeba */
+
+.trustedusers{
+    display: flex;
+    flex: row   ;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.headingsection {
+    padding-top: 140px;
+}
+.head {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+.headimage  {
+  margin-left: 46.69%;
+  margin-top: -150px;
+}
+
+.users {
+    width: 472px;
+    height: 480px;
+    padding: 60px 40px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-top: 0px;
+    
+    
+
+
+}
+.avatar,
+.avatar2,
+.avatar3{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.userstext {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.02em;
+    padding-bottom: 49px;
+}
+.jessieowner {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+.jessieowner img {
+    margin-left: 110px;
+}
+.found {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+.headingsection {
+    padding-bottom: 50px;
+}
+
+.users2, 
+.users3 {
+    width: 472px;
+    height: 480px;
+    padding: 60px 40px;
+    background: #4F9CF9;;
+    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    margin-top: 0px;
+    /* margin-left: -140px; */
+    
+}
+    .userstext2,
+    .owner2 {
+        color: white;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+    /* or 167% */
+
+    letter-spacing: -0.02em;
+    padding-bottom: 49px;
+    }
+
+.jessieowner2 {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+}
+
+.found2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.jessieowner2 img {
+    margin-left: 110px;
+}
+
+.wright-arrow {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+/* footeri iwyeba */
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 140px 220px 32px; */
+    gap: 200px;
+    background-color: #043873;
+    /* position: absolute; */
+    height: 400px;
+    margin-top: 60px;
+    width:  100%;
+    
+}
+
+.logofooter img {
+    margin-bottom: 15px;
+}
+.logofooter p {
+    color: #F7F7EE;;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    }
+
+    .product ul, li{
+        color: white;
+        text-decoration: none;
+        list-style: none;
+        margin-top: 15px;
+    }
+
+    .product h2 {
+        color: white;
+    }
+    .orange {
+        color: #FFE492;
+    }
+
+    .try-it-today h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 36px;
+        font-family: sans-serif;
+        margin-bottom: 23px;
+    }
+
+    .try-it-today p {
+        color: white;
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+    }
+    .startbutton {
+        padding: 20px 40px;
+        background-color: #4F9CF9;
+        gap: 10px;
+        
+        border-radius: 8px;
+        margin-top: 23px;
+        text-align: center;
+    }
+
+    .startbutton a {
+        color: white;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        font-family: sans-serif;
+        text-align: center;
+        align-items: center;
+    }
+
+    .startbutton span {
+        margin-left: 10px;}
+
+        .img-line {
+            text-align: center;
+            margin-top: -70px;
+        }
+
+        .english {
+        
+            margin-top: 33px;
+        }
+    
+        .english span {
+            margin-left: 10px;
+            color: white;
+        }
+    
+        .globus {
+            width: 15px;
+            height: 15px;
+        }
+        .text {
+            width: 53px;
+            height: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: sans-serif;
+        
+        }
+        .end ul {
+            display: flex;
+            flex-direction: row;
+            margin-top: 15px;
+            margin-left: 150px;
+            gap: 60px;
+        }
+        .footer-icons ul {
+            display: flex;
+            flex-direction: row;
+            gap: 32px;
+            margin-left: 638px;
+            margin-top: 15px;
+        }
+    
+        .footer-end a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer-end {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-top: -10px;
+            
+        }
+
+    
+
+
+
+
+
+ 
