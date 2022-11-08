@@ -104,7 +104,7 @@
     font-family: sans-serif;
     text-decoration: none;
     margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 .third-section3 {
@@ -450,6 +450,67 @@
     gap: 32px;
     list-style: none;
 }
+
+.section-2-button a {
+    padding: 8px 20px;
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+
+.section-2-button {
+    margin-bottom: 20px;
+    margin-left: 130px;   
+}
+
+.section-3-button a {
+    padding: 8px 20px;
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+
+.section-3-button {
+    margin-bottom: 20px;
+    margin-left: 160px;   
+}
+
+.section-4-button a {
+    padding: 8px 20px;
+    background-color: #4F9CF9;
+    border-radius: 8px;
+    color: white;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 23px;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    
+}
+
+.section-4-button {
+    margin-bottom: 20px;
+    margin-left: 128px;   
+}
+
 
 
 

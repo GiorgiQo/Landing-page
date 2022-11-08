@@ -838,8 +838,96 @@ body {
 
     
 
+        .section-1-button a {
+            padding: 16px 40px;
+            background-color:#4F9CF9;
+            border-radius: 8px;
+            color:white ;
+            align-items: center;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            font-family: sans-serif;
+            text-decoration: none;
+            
+            
+        }
+        .section-1-button {
+            margin-top: 60px;
+        }
+        .section-1-button span {
+            margin-left: 5px;
+        }
 
 
 
 
  
+
+
+        .section-2-button a {
+            padding: 16px 40px;
+            background-color:#4F9CF9;
+            border-radius: 8px;
+            color:white ;
+            align-items: center;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            font-family: sans-serif;
+            text-decoration: none;
+            
+            
+        }
+        .section-2-button {
+            margin-top: 60px;
+        }
+        .section-2-button span {
+            margin-left: 5px;
+        }
+
+
+
+
+
+        .section-3-button a {
+            padding: 16px 40px;
+            background-color:#4F9CF9;
+            border-radius: 8px;
+            color:white ;
+            align-items: center;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            font-family: sans-serif;
+            text-decoration: none;
+            
+            
+        }
+        .section-3-button {
+            margin-top: 60px;
+        }
+        .section-3-button span {
+            margin-left: 5px;
+        }
+
+        .section-4-button a {
+            padding: 16px 40px;
+            background-color:#4F9CF9;
+            border-radius: 8px;
+            color:white ;
+            align-items: center;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 23px;
+            font-family: sans-serif;
+            text-decoration: none;
+            
+            
+        }
+        .section-4-button {
+            margin-top: 60px;
+        }
+        .section-4-button span {
+            margin-left: 5px;
+        }
